@@ -1633,7 +1633,7 @@ strong {
 }
 
 .wildly__bank_item {
-  margin-right: 62px;
+  margin-right: 42px;
 }
 
 .wildly__bank_bg {
@@ -1688,14 +1688,24 @@ strong {
   max-width: 277px;
   position: relative;
   bottom: 100px;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .wildly__bank_text h5 {
   margin-bottom: 16px;
-}
-
-.wildly__bank_text-yellow {
-  bottom: 50px;
 }
 
 .wildly__bank_btn {
@@ -2661,6 +2671,24 @@ strong {
     max-width: 799px;
   }
 
+  .footer__links {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  .footer__links a {
+    width: 29%;
+    text-align: center;
+  }
+
   .container {
     max-width: 799px;
   }
@@ -2868,6 +2896,66 @@ strong {
     max-width: 570px;
   }
 
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+
+  .footer__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+  }
+
+  .footer__social h2 {
+    text-align: center;
+  }
+
+  .footer__social input {
+    margin-bottom: 30px;
+  }
+
+  .footer__social-media {
+    margin-bottom: 30px;
+  }
+
+  .footer__social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .footer__links a {
+    width: 52%;
+    margin-bottom: 30px;
+  }
+
   .container {
     max-width: 570px;
   }
@@ -2925,7 +3013,7 @@ strong {
   }
 
   .wildly__bank_item {
-    margin-right: 0;
+    margin-right: 20px;
     width: 100%;
   }
 
